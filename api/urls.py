@@ -10,5 +10,4 @@ router.register('spreadsheets', SpreadSheetViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-
 ]
